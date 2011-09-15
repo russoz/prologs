@@ -1,5 +1,5 @@
 /*
-    alexei-family.pro
+    family.pro
 */
 
 male(alexei).
