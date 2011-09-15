@@ -51,8 +51,8 @@ parent(eduardo,eduardojr).
 parent(liberta,eduardojr).
 
 
-father(X, Y)   :- male(X),   parent(X,Y).
-mother(X, Y)   :- female(X), parent(X,Y).
+father(F, Y)   :- male(F),   parent(F,Y).
+mother(M, Y)   :- female(M), parent(M,Y).
 
 sibling(X, Y)  :- father(F, X), father(F, Y),
                   mother(M, X), mother(M, Y), not(X = Y).
